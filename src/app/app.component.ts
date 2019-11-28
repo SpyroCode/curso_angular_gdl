@@ -6,5 +6,15 @@ import { Component } from "@angular/core";
   styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
-  name = "Efren";
+  private name = "Efren";
+
+  person = {
+    name: "Efren",
+    lastname: "Almanza Lamas",
+    email: "contacto@spyrocode.com"
+  };
+
+  getName() {
+    return this.name;
+  }
 }

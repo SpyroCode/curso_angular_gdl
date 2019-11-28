@@ -1,0 +1,7 @@
+<p>users works!</p>
+<input type="text" name="UserName" [(ngModel)]="userName" />
+<button (click)="addUser()">Add Name</button>
+
+<ul>
+  <li *ngFor="let el of users">{{ el }}</li>
+</ul>
